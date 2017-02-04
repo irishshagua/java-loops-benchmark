@@ -1,19 +1,24 @@
 # JMH Benchmarks For Java Loops
 This repo uses the [Java Microbenching Harness](http://openjdk.java.net/projects/code-tools/jmh/) to ascertain whether there is much of a performance difference between the different loop styles in Java. Primarily we are looking at the below three ways of iterating over a collection in Java.
   * The traditional for loop:
-  ```java
+  
+  ```
     for (int i = 0; i < coll.size(); i++) {
       System.out.println(coll.get(i));
     }
   ```
+  
   * The for-each loop:
-  ```java
+  
+  ```
     for(Object obj : collection) {
       System.out.println(obj);
     }
   ```
+  
   * Java 8 streams:
-  ```java
+  
+  ```
     System.out.println(collections.stream().sum());
   ```
   
