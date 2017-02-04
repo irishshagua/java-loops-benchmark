@@ -1,0 +1,19 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
+"com.mooneyserver.ForLoopBenchmarks.sumWithForEachLoop","thrpt",4,20,29290281.627545,3986632.465883,"ops/s",100
+"com.mooneyserver.ForLoopBenchmarks.sumWithForEachLoop","thrpt",4,20,355980.610718,53354.943127,"ops/s",10000
+"com.mooneyserver.ForLoopBenchmarks.sumWithForEachLoop","thrpt",4,20,2288.344751,168.874632,"ops/s",1000000
+"com.mooneyserver.ForLoopBenchmarks.sumWithLongAdder","thrpt",4,20,450882.604179,12558.923175,"ops/s",100
+"com.mooneyserver.ForLoopBenchmarks.sumWithLongAdder","thrpt",4,20,39001.346927,5677.534005,"ops/s",10000
+"com.mooneyserver.ForLoopBenchmarks.sumWithLongAdder","thrpt",4,20,435.604341,83.603781,"ops/s",1000000
+"com.mooneyserver.ForLoopBenchmarks.sumWithNoIndexForLoop","thrpt",4,20,37514487.561781,3139770.943858,"ops/s",100
+"com.mooneyserver.ForLoopBenchmarks.sumWithNoIndexForLoop","thrpt",4,20,416382.454968,67468.493031,"ops/s",10000
+"com.mooneyserver.ForLoopBenchmarks.sumWithNoIndexForLoop","thrpt",4,20,2237.584491,147.401729,"ops/s",1000000
+"com.mooneyserver.ForLoopBenchmarks.sumWithParallelStreamSum","thrpt",4,20,665949.230505,117700.185730,"ops/s",100
+"com.mooneyserver.ForLoopBenchmarks.sumWithParallelStreamSum","thrpt",4,20,94931.974004,26402.049871,"ops/s",10000
+"com.mooneyserver.ForLoopBenchmarks.sumWithParallelStreamSum","thrpt",4,20,595.496438,127.436230,"ops/s",1000000
+"com.mooneyserver.ForLoopBenchmarks.sumWithSequentialStreamSum","thrpt",4,20,22695604.664628,2935118.413946,"ops/s",100
+"com.mooneyserver.ForLoopBenchmarks.sumWithSequentialStreamSum","thrpt",4,20,317384.952539,65154.225365,"ops/s",10000
+"com.mooneyserver.ForLoopBenchmarks.sumWithSequentialStreamSum","thrpt",4,20,2326.198197,188.995897,"ops/s",1000000
+"com.mooneyserver.ForLoopBenchmarks.sumWithTraditionalForLoop","thrpt",4,20,38974158.441950,6922646.345407,"ops/s",100
+"com.mooneyserver.ForLoopBenchmarks.sumWithTraditionalForLoop","thrpt",4,20,357671.583970,87281.678752,"ops/s",10000
+"com.mooneyserver.ForLoopBenchmarks.sumWithTraditionalForLoop","thrpt",4,20,2338.859436,185.721708,"ops/s",1000000
