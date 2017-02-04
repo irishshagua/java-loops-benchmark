@@ -54,3 +54,4 @@ JMH Results:
 |sumWithTraditionalForLoop |  1000000 |      2338.859 |±     185.722 | ops/s |
 
 ![Results](results/comparisonGraph.png)
+View of Performance on million int collection
